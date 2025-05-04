@@ -1,0 +1,78 @@
+.profile-container {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.07);
+}
+
+.profile-header h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.profile-details p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.classes-section {
+    margin-top: 2rem;
+}
+
+.classes-section h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.classes-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.classes-section li {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.classes-section li strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.classes-section li p {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.cancel-membership {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cancel-btn {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+    background-color: #cc0000;
+}

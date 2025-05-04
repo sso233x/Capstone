@@ -1,0 +1,74 @@
+Capstone Project 2:
+Gym Membership App Proposal
+
+1. Tech Stack
+
+For my final project, I will be using Python/Flask for the back-end and React for the front-end. Flask will handle API development, user authentication, and database interactions, while React will provide a smooth and interactive user interface. The database will be managed using PostgreSQL with SQLAlchemy as the ORM.
+
+2. Project Focus
+
+This will be a full-stack application with equal focus on both the front-end and back-end. The front-end will deliver a dynamic and engaging user experience, while the back-end will handle secure data management, authentication, and API interactions.
+
+3. Type of Application
+
+This project will be a web application accessible through a browser. A mobile-friendly design will be implemented, ensuring responsiveness for users who access the site from their phones.
+
+4. Project Goal
+
+The primary goal of this application is to simplify gym membership management by allowing users to sign up for memberships and register for fitness classes. Gym administrators will have the ability to add or remove classes.
+
+5. Target Users
+
+The target users include:
+
+Gym members who want an easy way to manage their memberships and schedule classes.
+
+Gym administrators who need an efficient way to add/remove classes.
+
+6. Data Usage & Collection
+
+The app will utilize both user-generated data and structured data stored in a PostgreSQL database. Users will provide data when creating accounts, booking classes, and managing memberships. The back-end will handle data validation and secure storage.
+
+7. Project Approach
+
+Database Schema:
+
+Users (id, name, email, password_hash, role)
+
+Memberships (id, user_id, type, start_date, end_date, status)
+
+Classes (id, name, instructor, schedule, capacity)
+
+Bookings (id, user_id, class_id, status)
+
+Potential API Issues:
+
+Ensuring secure authentication and authorization for user roles (members, admins).
+
+Handling real-time updates for class availability and booking limits.
+
+Ensuring data integrity when adding or removing classes.
+
+Security Considerations:
+
+Securely storing user passwords using bcrypt hashing.
+
+Implementing JWT authentication for protected routes.
+
+Using SSL encryption for data transfer.
+
+8. App Functionality
+
+User Authentication (signup, login, logout, password reset)
+
+Class Scheduling & Booking (users sign up for classes, admins add/remove classes)
+
+Admin Controls (manage classes, view statistics)
+
+9. User Flow
+
+Sign Up/Login
+
+Dashboard (membership status, upcoming classes)
+
+Book Classes (view available classes, reserve a spot, cancel if needed)

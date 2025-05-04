@@ -1,0 +1,45 @@
+/* Center everything */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-box {
+    background-color: white;
+    padding: 3rem 4rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-box h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.home-box p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.home-box a {
+    margin: 0 1rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home-box a:hover {
+    background-color: #43a047;
+}

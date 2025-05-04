@@ -1,0 +1,96 @@
+.admin-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .admin-container form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-container form input {
+    flex: 1 1 30%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .admin-container form button {
+    padding: 0.6rem 1.2rem;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-container form button:hover {
+    background-color: #45a049;
+  }
+  
+  .admin-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-container li {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .admin-container li form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  .admin-container li form input {
+    flex: 1 1 30%;
+  }
+  
+  .admin-container li button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-container li button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .admin-container li button:nth-of-type(2) {
+    background-color: #2196f3;
+  }
+  
+  .admin-container li button:nth-of-type(2):hover {
+    background-color: #1976d2;
+  }
+  
