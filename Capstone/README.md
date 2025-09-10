@@ -1,47 +1,98 @@
-### Capstone Project
+# Capstone Project  
 
-**This is an app that allows a User to create/cancel a membership and enroll/unenroll from classes.
-It also has an Admin that can create/edit/delete classes, allowoing them to chnage the name, time,
-and limit of attendees.**
+This project is a full-stack **gym class management application** that allows:  
+- **Users** to create/cancel memberships and enroll/unenroll from classes.  
+- **Admins** to create, edit, and delete classes, including updating the name, time, and attendee limit.  
 
-### To Start Project
+---
 
-**You will need two terminal windows open, 
-one for the frontend and one for the backend.**
+## Features  
 
-**The backend will use localhost:5000 and the frontend will use localhost:3000**
+- 🔑 **Authentication** – Secure login for both Admins and Members.  
+- 👤 **Membership Management** – Users can sign up, cancel, and manage their memberships.  
+- 📅 **Class Enrollment** – Users can enroll in and unenroll from available classes.  
+- 🛠 **Admin Tools** – Admins can create, edit, and delete classes, including setting the time, name, and attendee limit.  
+- 📊 **Seed Data** – Preloaded admin, members, and classes for testing/demo.  
 
-1. ### Navigate to the Back-End first:
+---
+
+## Tech Stack  
+
+**Frontend:**  
+- React  
+- JavaScript  
+- Node.js (v20)  
+- NPM  
+
+**Backend:**  
+- Python  
+- Flask  
+- SQLAlchemy  
+- PostgreSQL  
+
+---
+
+## Getting Started  
+
+You will need **two terminal windows** open: one for the backend and one for the frontend.  
+
+- **Backend** runs on: `http://localhost:5000`  
+- **Frontend** runs on: `http://localhost:3000`  
+
+---
+
+### Backend Setup  
+
+1. Navigate to the backend directory:  
+   ```bash
    cd Capstone/backend
-
-   ### Seed Database:
+   ```
+2. Seed the database:
+   ```bash
    python3 seed.py
+   ```
+3. Start the backend server:
+   ```bash
+   flask run
+   ```
+   or
+   ```bash
+   python3 app.py
+   ```
    
-   ### To Start:
-   flask run/python3 app.py (could be python app.py)
+### Frontend Setup
 
-1. ### Navigate to the Front-End:
+1. Navigate to the frontend directory:
+   ```bash
    cd Capstone/frontend
-
-   ### To Start:
-   (make sure you are using Node version 20 before you start)
+   ```
+2. Make sure you are using Node version 20 before starting:
+   ```bash
    nvm use 20
-
-   **Then:**
+   ```
+3. Start the frontend server:
+   ```bash
    npm start
+   ```
    
-### The app will then start in your browser.
+The app will then start in your browser at `http://localhost:3000`.
 
-**The seed.py will add an admin and two members, along with three classes**
+### Seed Data
 
-### Admin-
-email: admin@example.com
-password: admin123
+Running seed.py will populate the database with:
+- **1 Admin**
+- **2 Members**
+- **3 Classes**
 
-### Member1-
-email: member1@example.com
-password: member123
+**Test Accounts**
+Admin
+- Email: admin@example.com
+- Password: admin123
 
-### Member2-
-email: member2@example.com
-passowrd: member123
+Member 1
+- Email: member1@example.com
+- Password: member123
+
+Member 2
+- Email: member2@example.com
+- Password: member123
