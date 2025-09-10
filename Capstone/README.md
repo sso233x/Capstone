@@ -6,6 +6,12 @@ This project is a full-stack **gym class management application** that allows:
 
 ---
 
+## Live Demo
+
+- **Frontend:** [View on Render](https://capstone-project-i1x7.onrender.com)  
+
+---
+
 ## Features  
 
 - 🔑 **Authentication** – Secure login for both Admins and Members.  
