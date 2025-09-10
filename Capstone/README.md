@@ -1,4 +1,4 @@
-# Capstone Project  
+# Fit-Track  
 
 This project is a full-stack **gym class management application** that allows:  
 - **Users** to create/cancel memberships and enroll/unenroll from classes.  
